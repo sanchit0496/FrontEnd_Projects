@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    color: white;
+}
+.navbar{
+    margin-bottom: 0%;
+    background-color:white;
+    position: fixed;
+    width: 100%;
+    z-index:1;
+    border-bottom-color:green;
+    border-bottom-style: solid;
+    border-bottom-width: 6px;
+}
+.navbar-brand{
+    margin-right: 60px;
+    margin-left: 60px;
+    color: black;
+    font-weight: 600;
+}
+.nav-link{
+    align: right;
+    color: black;
+    font-weight: 500;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.navbar-toggler-icon{
+    background-color: green;
+}
+#home{
+    background: url('farmer04.jpg') no-repeat 50% 50%;
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.99;
+}
+.landing-text{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.landing-text h1{
+    font-family: 'Montserrat';
+    font-size: 450%;
+    line-height: 1.2;
+}
+.landing-text h3{
+    font-size: 210%;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.btn-default{
+    background-color: white;
+    color:#36342F;
+    font-size: 160%;
+}
+.btn-default:hover{
+    color: white;
+    background-color:#36342F;
+} 
+p{
+    color: black;
+}
+h4{
+    color: black;
+}
+.info{
+    padding: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.info img{
+    padding: 5%;
+}
+.about{
+    padding: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border-color:lightgray;
+    border-radius: 1px;
+    border-style: groove;
+}
+.tab-content{
+    padding: 2%;
+}
+#nav-tab{
+    padding-left:4%;
+    padding-right: 4%;
+}
+.card-group{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+@media  (max-width:768px) {
+    .landing-text h1{
+        font-size: 250%;
+     }
+    .landing-text h3{
+         font-size: 120%;
+     }
+     .btn-default{
+         font-size: 120%;
+     }
+    .landing-text p{
+         font-size: 100%;
+     }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
