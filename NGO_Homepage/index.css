@@ -99,6 +99,23 @@ h4{
     padding-left: 8%;
     padding-right: 8%;
 }
+.card-deck{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+footer{
+    margin-top: 5%;
+    text-align: center;
+    border-top-style:solid;
+    border-top-color: green;
+    border-top-width: 5px; 
+}
+.contact img{
+    padding-top: 2%;
+}
+.contact p{
+    padding:10%;
+}
 @media  (max-width:768px) {
     .landing-text h1{
         font-size: 250%;
