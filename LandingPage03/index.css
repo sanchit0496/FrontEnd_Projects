@@ -1,0 +1,72 @@
+.navbar{
+    font-size: 100%;
+    font-weight: 600;
+    padding-left: 6%;
+    padding-right: 4%;
+    border-bottom-width: 8px;
+    border-bottom-color: #5cd65c;
+    border-bottom-style: solid;
+    }
+    nav a{
+    color:black;
+    }
+    nav li{
+      list-style-type: none;
+      padding: 0.4%;  
+    }
+    
+    img{
+        width: 100%;
+        opacity: 0.9;
+        height: auto;
+    }
+    div.example {
+      font-size: 300%;
+        color: white;
+        position: absolute;
+        top: 45%; 
+        left: 0; 
+        width: 100%;
+        padding-left: 7%;
+        padding-right: 7%;
+      }
+      
+    
+    
+    @media only screen and (max-width: 1024px) {
+        div.example p{
+            font-size: 48px;
+        }
+        div.example h5{
+            font-size: 16px;
+        }
+        img{
+            height: 130%;
+        }   
+     }
+      @media only screen and (max-width: 768px) {
+    
+        div.example p{
+            font-size: 23px;
+        }
+        div.example h5{
+            font-size: 12px;
+        }
+        img{
+            height: 130%;
+        }    
+     }
+     @media only screen and (max-width: 320px) {
+        div.example p{
+            font-size: 10px;
+        }
+        div.example h5{
+            font-size: 4px;
+        }   
+        img{
+            height: 130%;
+        }
+     }
+    
+    
+    
