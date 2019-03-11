@@ -1,0 +1,14 @@
+#flip1, #flip2, #panel1, #panel2{
+  margin-left:20%;
+  margin-right:20%;
+  margin-top:2%;
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel1 #panel2 {
+  padding: 50px;
+  display: none;
+}
